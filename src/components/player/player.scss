@@ -1,0 +1,54 @@
+.player {
+    overflow: hidden;
+    margin-left: -24px;
+    &_active {
+        overflow: visible;
+    }
+    &__main {
+        background: #000;
+        color: #fff;
+        padding: 24px;
+        width: 100%;
+        &:hover {
+            filter: invert(1);
+            cursor: pointer;
+        }
+    }
+    &__nickname {
+        font-family: "Spirit", sans-serif;
+        font-size: 45px;
+        line-height: 39px;
+        margin-bottom: 10px;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    &__name {
+        font-size: 13px;
+        color: #fff;
+        opacity: 0.8;
+        // letter-spacing: 0.1em;
+        text-transform: uppercase;
+    }
+    &__info {
+        padding: 0;
+        height: 0;
+        &_active {
+            height: auto;
+            padding: 20px 40px 20px 24px;
+        }
+    }
+    &__title {
+        color: #fff;
+        opacity: .4;
+        font-size: 12px;
+        padding-bottom: 16px;
+        text-transform: uppercase;
+        letter-spacing: .1em;
+    }
+    &__text {
+        color: #fff;
+        font-size: 15px;
+        line-height: 25px;
+        padding-bottom: 33px;
+    }
+}

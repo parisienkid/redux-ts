@@ -1,0 +1,99 @@
+.extra {
+    display: flex;
+    position: fixed;
+    right: 30px;
+    top: 35px;
+    color: #000;
+    z-index: 10;
+    @media (max-width: 768px) {
+        height: 45px;
+        top: 7.5px;
+        right: 20px;
+    }
+    &__lang {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        margin-right: 5px;
+        height: 42px;
+        overflow: hidden;
+        position: relative;
+        background-color: #fff;
+        &.burger {
+            filter: invert(1)
+        }
+        @media (max-width: 768px) {
+            background-color: inherit;
+        }
+        &_active {
+            overflow: visible;
+            @media (max-width: 768px) {
+                background-color: rgb(14, 14, 14);
+            }
+        }
+        img {
+            display: block;
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            filter: invert(1);
+            z-index: 10;
+            .active {
+                transform: rotate(180deg);
+            }
+            @media (max-width: 768px) {
+                filter: invert(0);
+            }
+        }
+    }
+    &__option {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 42px;
+        padding-left: 20px !important;
+        order: 2;
+        &_active {
+            order: 1;
+        }
+        &:hover {
+            background-color: rgb(235, 235, 235);
+        }
+        @media (max-width: 768px) {
+            background-color: inherit !important;
+            color: #fff !important;
+            font-weight: normal !important;
+            letter-spacing: normal !important;
+        }
+    }
+    &__shop {
+        height: 42px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @media (max-width: 768px) {
+            background-color: inherit !important;
+            color: #fff !important;
+            padding: 14px 5px !important;
+            font-weight: normal !important;
+            &:before {
+                display: none !important;
+            }
+        }
+        &.burger {
+            filter: invert(1)
+        }
+        &:hover {
+            text-decoration: none;
+            color: #000;
+        }
+        img {
+            display: block;
+            margin-left: 5px;
+            filter: invert(1);
+            @media (max-width: 768px) {
+                filter: invert(0);
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+.footer {
+    display: flex;
+    position: absolute;
+    right: 30px;
+    bottom: 35px;
+    max-width: 400px;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    span, a {
+        
+        display: block;
+        margin-right: 40px;
+        color: #ffffff78;
+        transition: 0.2s ease color;
+        font-size: 11px;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        &:nth-child(3) {
+            margin-right: 0;
+        }
+    }
+    &__link {
+        &:hover {
+            text-decoration: none;
+            color: #fff;
+            cursor: pointer;
+        }
+    }
+}

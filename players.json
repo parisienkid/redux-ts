@@ -1,0 +1,270 @@
+{
+  "games": [
+    {
+      "name": "dota 2",
+      "players": [
+        {
+          "nickname": "YATOROGOD",
+          "name": "Илья Мулярчук",
+          "role": "1",
+          "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+        },
+        {
+          "nickname": "TORONTOTOKYO",
+          "name": "Александр Хертек",
+          "role": "2",
+          "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+        },
+        {
+          "nickname": "Collapse",
+          "name": "Магомед Халилов",
+          "role": "3",
+          "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+        },
+        {
+          "nickname": "Mira",
+          "name": "Мирослав Колпаков",
+          "role": "4",
+          "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+        },
+        {
+          "nickname": "Miposhka",
+          "name": "Ярослав Найденов",
+          "role": "5",
+          "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+        },
+        {
+          "nickname": "Silent",
+          "name": "Айрат Газиев",
+          "role": "Главный тренер",
+          "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+        },
+        {
+          "nickname": "Korb3n",
+          "name": "Дмитрий Белов",
+          "role": "Менеджер",
+          "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+        },
+        {
+          "nickname": "DKLana",
+          "name": "Руслана Берест",
+          "role": "Менеджер",
+          "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+        },
+        {
+          "nickname": "Sword_Art",
+          "name": "Виталий Петкин",
+          "role": "Аналитик",
+          "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+        }
+      ]
+    },
+    {
+      "name": "cs:go",
+      "players": [
+        {
+          "nickname": "w0nderful",
+          "name": "Игорь Жданов",
+          "role": "awper",
+          "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+        },
+        {
+          "nickname": "chopper",
+          "name": "Леонид Вишняков",
+          "role": "IGL/rifler",
+          "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+        },
+        {
+          "nickname": "magixx",
+          "name": "Борис Воробьев",
+          "role": "rifler",
+          "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+        },
+        {
+          "nickname": "patsi",
+          "name": "Роберт Исянов",
+          "role": "rifler",
+          "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+        },
+        {
+          "nickname": "s1ren",
+          "name": "Павел Оглоблин",
+          "role": "rifler",
+          "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+        }
+      ]
+    },
+    {
+      "name": "league of legends",
+      "players": [
+        {
+          "nickname": "Dreampull",
+          "name": "Марк Лексин",
+          "role": "top",
+          "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+        },
+        {
+          "nickname": "Diamondprox",
+          "name": "Данил Решетников",
+          "role": "jungle",
+          "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+        },
+        {
+          "nickname": "Griffon",
+          "name": "Никита Гудков",
+          "role": "mid",
+          "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+        },
+        {
+          "nickname": "Mytant",
+          "name": "Евген Завальный",
+          "role": "bot",
+          "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+        },
+        {
+          "nickname": "Edward",
+          "name": "Эдуард Абгарян",
+          "role": "support",
+          "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+        }
+      ]
+    },
+    {
+      "name": "hearthstone",
+      "players": [
+        {
+          "nickname": "Dreampull",
+          "name": "Марк Лексин",
+          "role": "top",
+          "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+        },
+        {
+          "nickname": "Diamondprox",
+          "name": "Данил Решетников",
+          "role": "jungle",
+          "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+        },
+        {
+          "nickname": "Griffon",
+          "name": "Никита Гудков",
+          "role": "mid",
+          "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+        },
+        {
+          "nickname": "Mytant",
+          "name": "Евген Завальный",
+          "role": "bot",
+          "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+        },
+        {
+          "nickname": "Edward",
+          "name": "Эдуард Абгарян",
+          "role": "support",
+          "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+        }
+      ]
+    },
+    {
+      "name": "team spirit familly",
+      "players": [
+        {
+          "nickname": "Dreampull",
+          "name": "Марк Лексин",
+          "role": "top",
+          "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+        },
+        {
+          "nickname": "Diamondprox",
+          "name": "Данил Решетников",
+          "role": "jungle",
+          "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+        },
+        {
+          "nickname": "Griffon",
+          "name": "Никита Гудков",
+          "role": "mid",
+          "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+        },
+        {
+          "nickname": "Mytant",
+          "name": "Евген Завальный",
+          "role": "bot",
+          "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+        },
+        {
+          "nickname": "Edward",
+          "name": "Эдуард Абгарян",
+          "role": "support",
+          "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+        }
+      ]
+    },
+    {
+      "name": "cs:go academy",
+      "players": [
+        {
+          "nickname": "Dreampull",
+          "name": "Марк Лексин",
+          "role": "top",
+          "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+        },
+        {
+          "nickname": "Diamondprox",
+          "name": "Данил Решетников",
+          "role": "jungle",
+          "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+        },
+        {
+          "nickname": "Griffon",
+          "name": "Никита Гудков",
+          "role": "mid",
+          "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+        },
+        {
+          "nickname": "Mytant",
+          "name": "Евген Завальный",
+          "role": "bot",
+          "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+        },
+        {
+          "nickname": "Edward",
+          "name": "Эдуард Абгарян",
+          "role": "support",
+          "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+        }
+      ]
+    }
+  ],
+  "posts": [
+    {
+      "name": "TEAM SPIRIT АНОНСИРУЕТ НОВОГО ИГРОКА CS:GO РОСТЕРА",
+      "path": "2ii32iii2.webp",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean.",
+      "date": "11.06.2022"
+    },
+    {
+      "name": "Team Spirit и 1xbet объявляют о партнёрстве",
+      "path": "2jjn23jj234j.webp",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean.",
+      "date": "22.03.2022"
+    },
+    {
+      "name": "После перезагрузки состава и релокейта ставка Team Spirit на молодых игроков начинает окупаться",
+      "path": "32ur23iki.webp",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean.",
+      "date": "31.01.2022"
+    },
+    {
+      "name": "CEO Team Spirit Никита «Cheshir» Чукалин рассказал про причины переезда организации, почему была выбрана Сербия и дальнейшие планы",
+      "path": "g90923j23j.webp",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean.",
+      "date": "15.09.2021"
+    },
+    {
+      "name": "Team Spirit представляет новый состав по CS:GO",
+      "path": "jrkkj.webp",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean.",
+      "date": "27.05.2020"
+    }
+  ]
+}

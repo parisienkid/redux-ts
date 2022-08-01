@@ -1,0 +1,29 @@
+.post-page {
+    height: 100%;
+    &__container {
+        width: 750px;
+        margin: 0 auto;
+        padding: 10vh 0 10vh 0;
+
+    }
+    &__title {
+        font-size: 52px;
+        line-height: 72px;
+        margin: 20px 0 5px;
+        font-family: "Spirit", sans-serif;
+        color: #fff;
+    }
+    &__date {
+        font-size: 12px;
+        color: #fff;
+        margin-bottom: 30px;
+    }
+    &__img {
+        margin-bottom: 30px;
+    }
+    &__content {
+        color: #fff;
+        font-size: 15px;
+        line-height: 28px;
+    }
+}

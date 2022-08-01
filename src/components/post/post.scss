@@ -1,0 +1,28 @@
+.post {
+    display: flex;
+    width: 100%;
+    margin-top: 45px;
+    &:hover{
+        text-decoration: none;
+     }
+    &__img {
+        height: 150px;
+        display: block;
+        max-width: 250px;
+    }
+    &__info {
+        margin-left: 40px;
+    }
+    &__title {
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 24px;
+        color: #fff;
+    }
+    &__content, &__date {
+        margin-top: 10px;
+        color: #ffffff70;
+        font-size: 15px;
+        line-height: 22px;
+    }
+}
