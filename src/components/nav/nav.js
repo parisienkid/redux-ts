@@ -34,7 +34,7 @@ const Nav = () => {
                 <li><NavLink className="link" onClick={onChangeNav} to={'/blog'}>блог</NavLink></li>
                 <li><NavLink className="link" onClick={onChangeNav} to={'/partners'}>партнёры</NavLink></li>
             </ul>
-            <img className={`${burger ? 'active' : ''}`} src={logo} alt="logo"/>
+            <NavLink className="link__spirit" to={'/'}><img className={`${burger ? 'active' : ''}`} src={logo} alt="logo"/></NavLink>
         </nav>
     )
 };
