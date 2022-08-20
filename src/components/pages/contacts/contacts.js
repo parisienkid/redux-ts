@@ -5,11 +5,17 @@ import twitter from '../../../assets/twitter-dark.c0926f2e.svg';
 import vk from '../../../assets/vk-dark.508b599d.svg';
 import facebook from '../../../assets/facebook-dark.048e8dce.svg';
 import '../../../variables/white-btn.scss';
-import { Formik, Field, Form, ErrorMessage, useField } from 'formik';
+import { Formik, Field, Form, ErrorMessage, useField, FormikContext } from 'formik';
 import * as Yup from 'yup';
 
 const ContactsPage = () => {
 
+
+    const submitAlert = (props) => {
+        const errors = props;
+        console.log(errors);
+    }
+ 
     return (
         <div className="contacts">
             <div className="contacts__container">
@@ -46,33 +52,38 @@ const ContactsPage = () => {
                 </div>
                 <div className="contacts__title">форма связи</div>
                 <Formik
-                    initialValues={{ name: '', secondmail: '', mail: '', topic: '', message: '' }}
-                    validate={values => {
-                      const errors = {};
-                      if (!values.email) {
-                        errors.email = 'Required';
-                      } else if (
-                        !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(values.email)
-                      ) {
-                        errors.email = 'Invalid email address';
-                      }
-                      return errors;
-                    }}
-                    onSubmit={(values, { setSubmitting }) => {
-                      setTimeout(() => {
-                        alert(JSON.stringify(values, null, 2));
-                        setSubmitting(false);
-                      }, 400);
+                    initialValues={{ name: '', lastname: '', email: '', topic: '', message: '' }}
+                    validationSchema = {Yup.object({
+                        name: Yup.string()
+                                .required('Имя и фамилия должны быть заполнены'),
+                        lastname: Yup.string()
+                                .required('Имя и фамилия должны быть заполнены'),
+                        email: Yup.string()
+                                .email()
+                                .required('Неправильный email адрес!'),
+                        topic: Yup.string()
+                            .min(2, 'Минимум 2 символа для заполнения')
+                            .required('Длина темы сообщения должна быть больше 3-х символов'),
+                        message: Yup.string()
+                                    .min(10, 'Опишите ваше обращение более подробно (от 10 символов)')
+                                    .required('Опишите ваше обращение более подробно (от 10 символов)')  
+                    })}
+                    onSubmit={(values) => {
+                        setTimeout(() => {
+                          alert(JSON.stringify(values, null, 2));
+                        }, 400);
                     }}
                 >
-                    <Form className='contacts__form'>
-                        <input className='contacts__input i-1' type="text" required placeholder='*Имя'/>
-                        <input className='contacts__input i-2' type="text" required placeholder='*Фамилия'/>
-                        <input className='contacts__input i-3' type="text" required placeholder='*E-Mail'/>
-                        <input className='contacts__input i-4' type="text" required placeholder='*Тема обращения'/>
-                        <textarea className='contacts__input i-5' placeholder='Сообщение' name="message"></textarea>
-                        <button className='contacts__btn white-btn_active i-6' type='submit'>Отправить</button>
-                    </Form>
+                    {({errors}) => (
+                        <Form className='contacts__form'>
+                            <Field name='name' className='contacts__input i-1' type="text"  placeholder='*Имя'/>
+                            <Field name='lastname' className='contacts__input i-2' type="text"  placeholder='*Фамилия'/>
+                            <Field name='email' className='contacts__input i-3' type="email"  placeholder='*E-Mail'/>
+                            <Field name='topic' className='contacts__input i-4' type="text"  placeholder='*Тема обращения'/>
+                            <Field as="textarea" className='contacts__input i-5' placeholder='Сообщение' name="message"></Field>
+                            <button className='contacts__btn white-btn_active i-6' type='submit'>Отправить</button>
+                        </Form>
+                        )}
                 </Formik>
             </div>
         </div>
