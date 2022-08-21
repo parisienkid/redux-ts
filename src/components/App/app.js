@@ -16,6 +16,7 @@ import BlogPage from "../pages/blog/blog";
 import PostPage from "../pages/post-page/post-page";
 import PartnersPage from "../pages/partners/partners";
 import ContactsPage from "../pages/contacts/contacts";
+import Alerts from "../alerts/alerts";
 
 import {
   BrowserRouter as Router,
@@ -51,6 +52,7 @@ const App = () => {
 					<Route path="/partners" element={<PartnersPage/>}/>
 					<Route path="/contacts" element={<ContactsPage/>}/>
 				</Routes>
+				<Alerts/>
 				<Footer/>
 			</div>
 		</Router>

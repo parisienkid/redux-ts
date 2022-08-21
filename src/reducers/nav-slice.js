@@ -5,7 +5,7 @@ const initialState = {
     burger: false,
 };
 
-const nav = createSlice({
+const navSlice = createSlice({
     name: 'nav',
     initialState,
     reducers: {
@@ -14,7 +14,7 @@ const nav = createSlice({
     }
 })
 
-const {reducer, actions} = nav;
+const {reducer, actions} = navSlice;
 
 export default reducer;
 export const {navChange, burgerChange, navClear} = actions;

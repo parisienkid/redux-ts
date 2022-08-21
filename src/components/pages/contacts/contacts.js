@@ -5,16 +5,74 @@ import twitter from '../../../assets/twitter-dark.c0926f2e.svg';
 import vk from '../../../assets/vk-dark.508b599d.svg';
 import facebook from '../../../assets/facebook-dark.048e8dce.svg';
 import '../../../variables/white-btn.scss';
-import { Formik, Field, Form, ErrorMessage, useField, FormikContext } from 'formik';
-import * as Yup from 'yup';
+import { Formik, Field, Form} from 'formik';
+import { useDispatch } from 'react-redux';
+import { createAlert } from '../../../reducers/alert-slice';
 
 const ContactsPage = () => {
 
+    const dispatch = useDispatch();
 
-    const submitAlert = (props) => {
-        const errors = props;
-        console.log(errors);
+    const validSubmit = () => {
+        let errors = {};
+
+        var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+
+        const searcher = (nameClass) => {
+            return document.querySelector(nameClass)
+        };
+
+        const atrGet = (btn, error) => {
+            errors[btn.getAttribute('name')] = error;
+        }
+
+        if (searcher('.i-1').value === "") {
+            atrGet(searcher('.i-1'), 'Имя и фамилия должны быть заполнены!');
+        }
+        if (searcher('.i-2').value === "") {
+            atrGet(searcher('.i-1'), 'Имя и фамилия должны быть заполнены!');
+        }
+        if (reg.test(searcher('.i-3').value) == false) {
+            atrGet(searcher('.i-3'), 'Неправильный email адрес');
+        }
+        if (searcher('.i-4').value.length < 4) {
+            atrGet(searcher('.i-4'), 'Длина темы сообщения должна быть больше 3-х символов');
+        }   
+        if (searcher('.i-5').value.length < 10) {
+            atrGet(searcher('.i-5'), 'Опишите ваше обращение более подробно (от 10 символов)');
+        }   
+        return errors;
     }
+
+    const form = () => (
+        <Formik
+            initialValues={{ name: '', lastname: '', email: '', topic: '', message: '' }}
+            onSubmit={(values) => {
+                let errors = validSubmit();
+                function isEmpty(obj) {
+                    for (let key in obj) {
+                        return false
+                    }
+                    return true;
+                }
+                if (!isEmpty(errors)) {
+                    dispatch(createAlert(errors));
+                } else {
+                    document.querySelector('.contacts__form').reset();
+
+                }
+            }}
+        >
+                <Form className='contacts__form'>
+                    <Field name='name' className='contacts__input i-1' type="text"  placeholder='*Имя'/>
+                    <Field name='lastname' className='contacts__input i-2' type="text"  placeholder='*Фамилия'/>
+                    <Field name='email' className='contacts__input i-3' type="email"  placeholder='*E-Mail'/>
+                    <Field name='topic' className='contacts__input i-4' type="text"  placeholder='*Тема обращения'/>
+                    <Field as="textarea" className='contacts__input i-5' placeholder='Сообщение' name="message"></Field>
+                    <button className='contacts__btn white-btn_active i-6' type='submit'>Отправить</button>
+                </Form>      
+        </Formik>
+    )
  
     return (
         <div className="contacts">
@@ -51,40 +109,7 @@ const ContactsPage = () => {
                     </div>
                 </div>
                 <div className="contacts__title">форма связи</div>
-                <Formik
-                    initialValues={{ name: '', lastname: '', email: '', topic: '', message: '' }}
-                    validationSchema = {Yup.object({
-                        name: Yup.string()
-                                .required('Имя и фамилия должны быть заполнены'),
-                        lastname: Yup.string()
-                                .required('Имя и фамилия должны быть заполнены'),
-                        email: Yup.string()
-                                .email()
-                                .required('Неправильный email адрес!'),
-                        topic: Yup.string()
-                            .min(2, 'Минимум 2 символа для заполнения')
-                            .required('Длина темы сообщения должна быть больше 3-х символов'),
-                        message: Yup.string()
-                                    .min(10, 'Опишите ваше обращение более подробно (от 10 символов)')
-                                    .required('Опишите ваше обращение более подробно (от 10 символов)')  
-                    })}
-                    onSubmit={(values) => {
-                        setTimeout(() => {
-                          alert(JSON.stringify(values, null, 2));
-                        }, 400);
-                    }}
-                >
-                    {({errors}) => (
-                        <Form className='contacts__form'>
-                            <Field name='name' className='contacts__input i-1' type="text"  placeholder='*Имя'/>
-                            <Field name='lastname' className='contacts__input i-2' type="text"  placeholder='*Фамилия'/>
-                            <Field name='email' className='contacts__input i-3' type="email"  placeholder='*E-Mail'/>
-                            <Field name='topic' className='contacts__input i-4' type="text"  placeholder='*Тема обращения'/>
-                            <Field as="textarea" className='contacts__input i-5' placeholder='Сообщение' name="message"></Field>
-                            <button className='contacts__btn white-btn_active i-6' type='submit'>Отправить</button>
-                        </Form>
-                        )}
-                </Formik>
+                {form()}
             </div>
         </div>
     )
