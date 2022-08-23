@@ -1,7 +1,8 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-    errors: {}
+    errors: [],
+    alertStatus: 'idle',
 }
 
 const alertSlice = createSlice({
@@ -9,10 +10,12 @@ const alertSlice = createSlice({
     initialState,
     reducers: {
         createAlert: (state, action) => {
-            state.errors = {};
-            for (let key in action.payload) {
-                state.errors[key] = action.payload[key];
-            }
+            state.errors = action.payload;
+            state.alertStatus = 'loading';
+        },
+        updateAlert: state => {
+            state.errors = [];
+            state.alertStatus = 'idle';
         },
     }
 });
@@ -22,5 +25,6 @@ const {reducer, actions} = alertSlice;
 export default reducer;
 
 export const {
-    createAlert
+    createAlert,
+    updateAlert,
 } = actions;

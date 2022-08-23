@@ -1,7 +1,7 @@
 import { fetchGameData, fetchPostsData } from "../../fetch actions/fetch";
 import { useHttp } from "../../hooks/http-hook";
 import { useEffect } from "react";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 
 
 import Nav from "../nav/nav";
@@ -16,7 +16,7 @@ import BlogPage from "../pages/blog/blog";
 import PostPage from "../pages/post-page/post-page";
 import PartnersPage from "../pages/partners/partners";
 import ContactsPage from "../pages/contacts/contacts";
-import Alerts from "../alerts/alerts";
+import Alert from "../alert/alert";
 
 import {
   BrowserRouter as Router,
@@ -30,12 +30,12 @@ const App = () => {
 	const {request} = useHttp();
 	const dispatch = useDispatch();
 
-	console.log('render')
-
 	useEffect(() => {
 		dispatch(fetchGameData(request, 'http://localhost:3001/games'));
 		dispatch(fetchPostsData(request, 'http://localhost:3001/posts'));
 	}, []);
+
+
 
 	return (
 		<Router>
@@ -52,7 +52,7 @@ const App = () => {
 					<Route path="/partners" element={<PartnersPage/>}/>
 					<Route path="/contacts" element={<ContactsPage/>}/>
 				</Routes>
-				<Alerts/>
+				<Alert/>
 				<Footer/>
 			</div>
 		</Router>

@@ -7,39 +7,32 @@ import facebook from '../../../assets/facebook-dark.048e8dce.svg';
 import '../../../variables/white-btn.scss';
 import { Formik, Field, Form} from 'formik';
 import { useDispatch } from 'react-redux';
-import { createAlert } from '../../../reducers/alert-slice';
+import { createAlert, updateAlert } from '../../../reducers/alert-slice';
 
 const ContactsPage = () => {
 
     const dispatch = useDispatch();
 
     const validSubmit = () => {
-        let errors = {};
+        let errors = [];
 
         var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
 
         const searcher = (nameClass) => {
-            return document.querySelector(nameClass)
+            return document.querySelector(nameClass);
         };
 
-        const atrGet = (btn, error) => {
-            errors[btn.getAttribute('name')] = error;
-        }
-
-        if (searcher('.i-1').value === "") {
-            atrGet(searcher('.i-1'), 'Имя и фамилия должны быть заполнены!');
-        }
-        if (searcher('.i-2').value === "") {
-            atrGet(searcher('.i-1'), 'Имя и фамилия должны быть заполнены!');
+        if (searcher('.i-1').value === "" || searcher('.i-2').value === "") {
+            errors.push('Имя и фамилия должны быть заполнены!');
         }
         if (reg.test(searcher('.i-3').value) == false) {
-            atrGet(searcher('.i-3'), 'Неправильный email адрес');
+            errors.push('Неправильный email адрес');
         }
         if (searcher('.i-4').value.length < 4) {
-            atrGet(searcher('.i-4'), 'Длина темы сообщения должна быть больше 3-х символов');
+            errors.push('Длина темы сообщения должна быть больше 3-х символов');
         }   
         if (searcher('.i-5').value.length < 10) {
-            atrGet(searcher('.i-5'), 'Опишите ваше обращение более подробно (от 10 символов)');
+            errors.push('Опишите ваше обращение более подробно (от 10 символов)');
         }   
         return errors;
     }
@@ -57,9 +50,15 @@ const ContactsPage = () => {
                 }
                 if (!isEmpty(errors)) {
                     dispatch(createAlert(errors));
+                    setTimeout(() => {
+                        dispatch(updateAlert())
+                    }, 3000);
                 } else {
                     document.querySelector('.contacts__form').reset();
-
+                    dispatch(createAlert('success'));
+                    setTimeout(() => {
+                        dispatch(updateAlert())
+                    }, 3000);
                 }
             }}
         >
