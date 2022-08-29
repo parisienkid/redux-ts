@@ -1,6 +1,9 @@
 .player {
     overflow: hidden;
     margin-left: -24px;
+    @media (max-width: 768px) {
+        margin-left: 0;
+    }
     &_active {
         overflow: visible;
     }

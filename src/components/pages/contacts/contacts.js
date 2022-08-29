@@ -42,22 +42,28 @@ const ContactsPage = () => {
             initialValues={{ name: '', lastname: '', email: '', topic: '', message: '' }}
             onSubmit={(values) => {
                 let errors = validSubmit();
-                function isEmpty(obj) {
-                    for (let key in obj) {
-                        return false
-                    }
-                    return true;
-                }
-                if (!isEmpty(errors)) {
+                if (errors.length > 0) {
+                    dispatch(updateAlert());
                     dispatch(createAlert(errors));
+                    document.querySelector('.contacts__btn').setAttribute("disabled", "disabled");
+                    document.querySelector('.contacts__btn').textContent = 'Подождите';
+                    document.querySelector('.contacts__btn').classList.toggle('contacts__btn_disabled');
                     setTimeout(() => {
                         dispatch(updateAlert())
+                        document.querySelector('.contacts__btn').removeAttribute("disabled");
+                        document.querySelector('.contacts__btn').textContent = 'Отправить';
+                        document.querySelector('.contacts__btn').classList.toggle('contacts__btn_disabled');
+
                     }, 3000);
                 } else {
                     document.querySelector('.contacts__form').reset();
                     dispatch(createAlert('success'));
+                    document.querySelector('.contacts__btn').setAttribute("disabled", "disabled");
+                    document.querySelector('.contacts__btn').textContent = 'Подождите';
                     setTimeout(() => {
                         dispatch(updateAlert())
+                        document.querySelector('.contacts__btn').removeAttribute("disabled");
+                        document.querySelector('.contacts__btn').textContent = 'Отправить';
                     }, 3000);
                 }
             }}

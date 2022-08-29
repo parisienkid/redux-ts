@@ -6,6 +6,7 @@
     padding: 20px 20px;
     border-radius: 5px;
     width: 300px;
+    animation: opacity 3s linear forwards;
     &__success {
         background-color: #c1e8ad;
         border: 2px solid #a7d590;
@@ -54,7 +55,28 @@
     0% {
         width: 100%;
     }
+    10% {
+        width: 100%;
+    }
+    90% {
+        width: 0%;
+    }
     100% {
         width: 0%;
+    }
+}
+
+@keyframes opacity {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
     }
 }

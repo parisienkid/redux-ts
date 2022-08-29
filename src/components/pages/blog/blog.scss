@@ -2,12 +2,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10vh 0;
+    padding: 10vh 0 100px 0;
     &__container {
         max-width: 750px;
+        @media (max-width: 768px) {
+            width: 100%;
+            padding: 0 10vw;
+        }
     }
     &__head-img {
         width: 100%;
-        height: 420px;
+        // height: 420px;
     }
 }

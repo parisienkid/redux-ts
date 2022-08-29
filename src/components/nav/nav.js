@@ -1,7 +1,6 @@
 import { useSelector, useDispatch } from 'react-redux';
 import './nav.scss';
 import logo from '../../assets/logo.a0adaea7.svg';
-import { navChange } from '../../reducers/nav-slice';
 import { burgerChange } from '../../reducers/nav-slice';
 
 import {
@@ -11,13 +10,15 @@ import {
 
 const Nav = () => {
 
-    const {burger, clear} = useSelector(state => state.nav);
+    const {burger} = useSelector(state => state.nav);
     const dispatch = useDispatch();
 
  
     const onChangeNav = (e) => {
-        // dispatch(navChange(e.target.innerText.toLowerCase()));
         e.target.classList.add('active');
+        if (document.documentElement.clientWidth < 769) {
+            dispatch(burgerChange());
+        }
     };
 
     const onChangeBurger = () => {
