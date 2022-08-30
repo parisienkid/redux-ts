@@ -1,0 +1,576 @@
+{
+  "ru": {
+    "games": [
+      {
+        "name": "dota 2",
+        "players": [
+          {
+            "nickname": "YATOROGOD",
+            "name": "Илья Мулярчук",
+            "role": "1",
+            "bio": "Генерация рыбатекста происходит довольно просто: есть несколько фиксированных наборов фраз и словочетаний, из которых в опредёленном порядке формируются предложения. Предложения складываются в абзацы — и вы наслаждетесь очередным бредошедевром."
+          },
+          {
+            "nickname": "TORONTOTOKYO",
+            "name": "Александр Хертек",
+            "role": "2",
+            "bio": "Генерация рыбатекста происходит довольно просто: есть несколько фиксированных наборов фраз и словочетаний, из которых в опредёленном порядке формируются предложения. Предложения складываются в абзацы — и вы наслаждетесь очередным бредошедевром."
+          },
+          {
+            "nickname": "Collapse",
+            "name": "Магомед Халилов",
+            "role": "3",
+            "bio": "Генерация рыбатекста происходит довольно просто: есть несколько фиксированных наборов фраз и словочетаний, из которых в опредёленном порядке формируются предложения. Предложения складываются в абзацы — и вы наслаждетесь очередным бредошедевром."
+          },
+          {
+            "nickname": "Mira",
+            "name": "Мирослав Колпаков",
+            "role": "4",
+            "bio": "Генерация рыбатекста происходит довольно просто: есть несколько фиксированных наборов фраз и словочетаний, из которых в опредёленном порядке формируются предложения. Предложения складываются в абзацы — и вы наслаждетесь очередным бредошедевром."
+          },
+          {
+            "nickname": "Miposhka",
+            "name": "Ярослав Найденов",
+            "role": "5",
+            "bio": "Генерация рыбатекста происходит довольно просто: есть несколько фиксированных наборов фраз и словочетаний, из которых в опредёленном порядке формируются предложения. Предложения складываются в абзацы — и вы наслаждетесь очередным бредошедевром."
+          },
+          {
+            "nickname": "Silent",
+            "name": "Айрат Газиев",
+            "role": "Главный тренер",
+            "bio": "Генерация рыбатекста происходит довольно просто: есть несколько фиксированных наборов фраз и словочетаний, из которых в опредёленном порядке формируются предложения. Предложения складываются в абзацы — и вы наслаждетесь очередным бредошедевром."
+          },
+          {
+            "nickname": "Korb3n",
+            "name": "Дмитрий Белов",
+            "role": "Менеджер",
+            "bio": "Генерация рыбатекста происходит довольно просто: есть несколько фиксированных наборов фраз и словочетаний, из которых в опредёленном порядке формируются предложения. Предложения складываются в абзацы — и вы наслаждетесь очередным бредошедевром."
+          },
+          {
+            "nickname": "DKLana",
+            "name": "Руслана Берест",
+            "role": "Менеджер",
+            "bio": "Генерация рыбатекста происходит довольно просто: есть несколько фиксированных наборов фраз и словочетаний, из которых в опредёленном порядке формируются предложения. Предложения складываются в абзацы — и вы наслаждетесь очередным бредошедевром."
+          },
+          {
+            "nickname": "Sword_Art",
+            "name": "Виталий Петкин",
+            "role": "Аналитик",
+            "bio": "Генерация рыбатекста происходит довольно просто: есть несколько фиксированных наборов фраз и словочетаний, из которых в опредёленном порядке формируются предложения. Предложения складываются в абзацы — и вы наслаждетесь очередным бредошедевром."
+          }
+        ]
+      },
+      {
+        "name": "cs:go",
+        "players": [
+          {
+            "nickname": "w0nderful",
+            "name": "Игорь Жданов",
+            "role": "awper",
+            "bio": "Генерация рыбатекста происходит довольно просто: есть несколько фиксированных наборов фраз и словочетаний, из которых в опредёленном порядке формируются предложения. Предложения складываются в абзацы — и вы наслаждетесь очередным бредошедевром."
+          },
+          {
+            "nickname": "chopper",
+            "name": "Леонид Вишняков",
+            "role": "IGL/rifler",
+            "bio": "Генерация рыбатекста происходит довольно просто: есть несколько фиксированных наборов фраз и словочетаний, из которых в опредёленном порядке формируются предложения. Предложения складываются в абзацы — и вы наслаждетесь очередным бредошедевром."
+          },
+          {
+            "nickname": "magixx",
+            "name": "Борис Воробьев",
+            "role": "rifler",
+            "bio": "Генерация рыбатекста происходит довольно просто: есть несколько фиксированных наборов фраз и словочетаний, из которых в опредёленном порядке формируются предложения. Предложения складываются в абзацы — и вы наслаждетесь очередным бредошедевром."
+          },
+          {
+            "nickname": "patsi",
+            "name": "Роберт Исянов",
+            "role": "rifler",
+            "bio": "Генерация рыбатекста происходит довольно просто: есть несколько фиксированных наборов фраз и словочетаний, из которых в опредёленном порядке формируются предложения. Предложения складываются в абзацы — и вы наслаждетесь очередным бредошедевром."
+          },
+          {
+            "nickname": "s1ren",
+            "name": "Павел Оглоблин",
+            "role": "rifler",
+            "bio": "Генерация рыбатекста происходит довольно просто: есть несколько фиксированных наборов фраз и словочетаний, из которых в опредёленном порядке формируются предложения. Предложения складываются в абзацы — и вы наслаждетесь очередным бредошедевром."
+          }
+        ]
+      },
+      {
+        "name": "league of legends",
+        "players": [
+          {
+            "nickname": "w0nderful",
+            "name": "Игорь Жданов",
+            "role": "awper",
+            "bio": "Генерация рыбатекста происходит довольно просто: есть несколько фиксированных наборов фраз и словочетаний, из которых в опредёленном порядке формируются предложения. Предложения складываются в абзацы — и вы наслаждетесь очередным бредошедевром."
+          },
+          {
+            "nickname": "chopper",
+            "name": "Леонид Вишняков",
+            "role": "IGL/rifler",
+            "bio": "Генерация рыбатекста происходит довольно просто: есть несколько фиксированных наборов фраз и словочетаний, из которых в опредёленном порядке формируются предложения. Предложения складываются в абзацы — и вы наслаждетесь очередным бредошедевром."
+          },
+          {
+            "nickname": "magixx",
+            "name": "Борис Воробьев",
+            "role": "rifler",
+            "bio": "Генерация рыбатекста происходит довольно просто: есть несколько фиксированных наборов фраз и словочетаний, из которых в опредёленном порядке формируются предложения. Предложения складываются в абзацы — и вы наслаждетесь очередным бредошедевром."
+          },
+          {
+            "nickname": "patsi",
+            "name": "Роберт Исянов",
+            "role": "rifler",
+            "bio": "Генерация рыбатекста происходит довольно просто: есть несколько фиксированных наборов фраз и словочетаний, из которых в опредёленном порядке формируются предложения. Предложения складываются в абзацы — и вы наслаждетесь очередным бредошедевром."
+          },
+          {
+            "nickname": "s1ren",
+            "name": "Павел Оглоблин",
+            "role": "rifler",
+            "bio": "Генерация рыбатекста происходит довольно просто: есть несколько фиксированных наборов фраз и словочетаний, из которых в опредёленном порядке формируются предложения. Предложения складываются в абзацы — и вы наслаждетесь очередным бредошедевром."
+          }
+        ]
+      },
+      {
+        "name": "hearthstone",
+        "players": [
+          {
+            "nickname": "w0nderful",
+            "name": "Игорь Жданов",
+            "role": "awper",
+            "bio": "Генерация рыбатекста происходит довольно просто: есть несколько фиксированных наборов фраз и словочетаний, из которых в опредёленном порядке формируются предложения. Предложения складываются в абзацы — и вы наслаждетесь очередным бредошедевром."
+          },
+          {
+            "nickname": "chopper",
+            "name": "Леонид Вишняков",
+            "role": "IGL/rifler",
+            "bio": "Генерация рыбатекста происходит довольно просто: есть несколько фиксированных наборов фраз и словочетаний, из которых в опредёленном порядке формируются предложения. Предложения складываются в абзацы — и вы наслаждетесь очередным бредошедевром."
+          },
+          {
+            "nickname": "magixx",
+            "name": "Борис Воробьев",
+            "role": "rifler",
+            "bio": "Генерация рыбатекста происходит довольно просто: есть несколько фиксированных наборов фраз и словочетаний, из которых в опредёленном порядке формируются предложения. Предложения складываются в абзацы — и вы наслаждетесь очередным бредошедевром."
+          },
+          {
+            "nickname": "patsi",
+            "name": "Роберт Исянов",
+            "role": "rifler",
+            "bio": "Генерация рыбатекста происходит довольно просто: есть несколько фиксированных наборов фраз и словочетаний, из которых в опредёленном порядке формируются предложения. Предложения складываются в абзацы — и вы наслаждетесь очередным бредошедевром."
+          },
+          {
+            "nickname": "s1ren",
+            "name": "Павел Оглоблин",
+            "role": "rifler",
+            "bio": "Генерация рыбатекста происходит довольно просто: есть несколько фиксированных наборов фраз и словочетаний, из которых в опредёленном порядке формируются предложения. Предложения складываются в абзацы — и вы наслаждетесь очередным бредошедевром."
+          }
+        ]
+      },
+      {
+        "name": "team spirit familly",
+        "players": [
+          {
+            "nickname": "w0nderful",
+            "name": "Игорь Жданов",
+            "role": "awper",
+            "bio": "Генерация рыбатекста происходит довольно просто: есть несколько фиксированных наборов фраз и словочетаний, из которых в опредёленном порядке формируются предложения. Предложения складываются в абзацы — и вы наслаждетесь очередным бредошедевром."
+          },
+          {
+            "nickname": "chopper",
+            "name": "Леонид Вишняков",
+            "role": "IGL/rifler",
+            "bio": "Генерация рыбатекста происходит довольно просто: есть несколько фиксированных наборов фраз и словочетаний, из которых в опредёленном порядке формируются предложения. Предложения складываются в абзацы — и вы наслаждетесь очередным бредошедевром."
+          },
+          {
+            "nickname": "magixx",
+            "name": "Борис Воробьев",
+            "role": "rifler",
+            "bio": "Генерация рыбатекста происходит довольно просто: есть несколько фиксированных наборов фраз и словочетаний, из которых в опредёленном порядке формируются предложения. Предложения складываются в абзацы — и вы наслаждетесь очередным бредошедевром."
+          },
+          {
+            "nickname": "patsi",
+            "name": "Роберт Исянов",
+            "role": "rifler",
+            "bio": "Генерация рыбатекста происходит довольно просто: есть несколько фиксированных наборов фраз и словочетаний, из которых в опредёленном порядке формируются предложения. Предложения складываются в абзацы — и вы наслаждетесь очередным бредошедевром."
+          },
+          {
+            "nickname": "s1ren",
+            "name": "Павел Оглоблин",
+            "role": "rifler",
+            "bio": "Генерация рыбатекста происходит довольно просто: есть несколько фиксированных наборов фраз и словочетаний, из которых в опредёленном порядке формируются предложения. Предложения складываются в абзацы — и вы наслаждетесь очередным бредошедевром."
+          }
+        ]
+      },
+      {
+        "name": "cs:go academy",
+        "players": [
+          {
+            "nickname": "w0nderful",
+            "name": "Игорь Жданов",
+            "role": "awper",
+            "bio": "Генерация рыбатекста происходит довольно просто: есть несколько фиксированных наборов фраз и словочетаний, из которых в опредёленном порядке формируются предложения. Предложения складываются в абзацы — и вы наслаждетесь очередным бредошедевром."
+          },
+          {
+            "nickname": "chopper",
+            "name": "Леонид Вишняков",
+            "role": "IGL/rifler",
+            "bio": "Генерация рыбатекста происходит довольно просто: есть несколько фиксированных наборов фраз и словочетаний, из которых в опредёленном порядке формируются предложения. Предложения складываются в абзацы — и вы наслаждетесь очередным бредошедевром."
+          },
+          {
+            "nickname": "magixx",
+            "name": "Борис Воробьев",
+            "role": "rifler",
+            "bio": "Генерация рыбатекста происходит довольно просто: есть несколько фиксированных наборов фраз и словочетаний, из которых в опредёленном порядке формируются предложения. Предложения складываются в абзацы — и вы наслаждетесь очередным бредошедевром."
+          },
+          {
+            "nickname": "patsi",
+            "name": "Роберт Исянов",
+            "role": "rifler",
+            "bio": "Генерация рыбатекста происходит довольно просто: есть несколько фиксированных наборов фраз и словочетаний, из которых в опредёленном порядке формируются предложения. Предложения складываются в абзацы — и вы наслаждетесь очередным бредошедевром."
+          },
+          {
+            "nickname": "s1ren",
+            "name": "Павел Оглоблин",
+            "role": "rifler",
+            "bio": "Генерация рыбатекста происходит довольно просто: есть несколько фиксированных наборов фраз и словочетаний, из которых в опредёленном порядке формируются предложения. Предложения складываются в абзацы — и вы наслаждетесь очередным бредошедевром."
+          }
+        ]
+      }
+    ],
+    "posts": [
+      {
+        "name": "TEAM SPIRIT АНОНСИРУЕТ НОВОГО ИГРОКА CS:GO РОСТЕРА",
+        "path": "2ii32iii2.webp",
+        "content": "Генерация рыбатекста происходит довольно просто: есть несколько фиксированных наборов фраз и словочетаний, из которых в опредёленном порядке формируются предложения. Предложения складываются в абзацы — и вы наслаждетесь очередным бредошедевром.",
+        "date": "11.06.2022"
+      },
+      {
+        "name": "Team Spirit и 1xbet объявляют о партнёрстве",
+        "path": "2jjn23jj234j.webp",
+        "content": "Генерация рыбатекста происходит довольно просто: есть несколько фиксированных наборов фраз и словочетаний, из которых в опредёленном порядке формируются предложения. Предложения складываются в абзацы — и вы наслаждетесь очередным бредошедевром.",
+        "date": "22.03.2022"
+      },
+      {
+        "name": "После перезагрузки состава и релокейта ставка Team Spirit на молодых игроков начинает окупаться",
+        "path": "32ur23iki.webp",
+        "content": "Генерация рыбатекста происходит довольно просто: есть несколько фиксированных наборов фраз и словочетаний, из которых в опредёленном порядке формируются предложения. Предложения складываются в абзацы — и вы наслаждетесь очередным бредошедевром.",
+        "date": "31.01.2022"
+      },
+      {
+        "name": "CEO Team Spirit Никита «Cheshir» Чукалин рассказал про причины переезда организации, почему была выбрана Сербия и дальнейшие планы",
+        "path": "g90923j23j.webp",
+        "content": "Генерация рыбатекста происходит довольно просто: есть несколько фиксированных наборов фраз и словочетаний, из которых в опредёленном порядке формируются предложения. Предложения складываются в абзацы — и вы наслаждетесь очередным бредошедевром.",
+        "date": "15.09.2021"
+      },
+      {
+        "name": "Team Spirit представляет новый состав по CS:GO",
+        "path": "jrkkj.webp",
+        "content": "Генерация рыбатекста происходит довольно просто: есть несколько фиксированных наборов фраз и словочетаний, из которых в опредёленном порядке формируются предложения. Предложения складываются в абзацы — и вы наслаждетесь очередным бредошедевром.",
+        "date": "27.05.2020"
+      }
+    ],
+    "nav": {
+      "main": "главная",
+      "about": "о клубе",
+      "teams": "команды",
+      "blog": "блог",
+      "partners": "партнёры"
+    },
+    "main": {
+      "title": "TEAM SPIRIT АНОНСИРУЕТ НОВОГО ИГРОКА CS:GO РОСТЕРА"
+    },
+    "about": {
+      "title": "О КЛУБЕ",
+      "p1": "Team Spirit - международная киберспортивная организация, созданная в 2015 году. В данный момент основной офис команды базируется в столице Сербии, г. Белград.",
+      "p2": "На сегодняшний день мы представлены в таких дисциплинах, как CS:GO (chopper,magixx, degster, Patsi, s1ren), Dota 2 (YATOROGOD, TORONTOTOKYO, Collapse, Mira, Miposhka), Hearthstone (SilverName). Так же частью Team Spirit Family является стример Wycc220.",
+      "p3": "Наша цель - стабильно выступать на высоком уровне в каждой из дисциплин и конкурировать с лучшими киберспортивными клубами мира. Мы хотим внести позитивный вклад в комьюнити с помощью интересного контента, purpose-инициатив и коллабораций.",
+      "p4": "Наши последние достижения: Победители The International 10 Dota 2 (октябрь 2021) , чемпионы DPC EEU: Regional Finals Dota 2(февраль 2022), 3-4 место PGL Antwerp Major по CS:GO (май 2022), топ-6 CS:GO (май 2022, HLTV), топ-4 на Hearthstone World Championship (декабрь 2020)"
+    }
+  },
+  "en": {
+    "games": [
+      {
+        "name": "dota 2",
+        "players": [
+          {
+            "nickname": "YATOROGOD",
+            "name": "Ilya Mulyarchuk",
+            "role": "1",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+          },
+          {
+            "nickname": "TORONTOTOKYO",
+            "name": "Alexander Khertek",
+            "role": "2",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+          },
+          {
+            "nickname": "Collapse",
+            "name": "Magomed Khalilov",
+            "role": "3",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+          },
+          {
+            "nickname": "Mira",
+            "name": "Miroslav Kolpakov",
+            "role": "4",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+          },
+          {
+            "nickname": "Miposhka",
+            "name": "Yaroslav Naidenov",
+            "role": "5",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+          },
+          {
+            "nickname": "Silent",
+            "name": "Airat Gaziev",
+            "role": "Head coach",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+          },
+          {
+            "nickname": "Korb3n",
+            "name": "Dmitry Belov",
+            "role": "Manager",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+          },
+          {
+            "nickname": "DKLana",
+            "name": "Ruslana Berest",
+            "role": "Manager",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+          },
+          {
+            "nickname": "Sword_Art",
+            "name": "Vitaliy Petkin",
+            "role": "Analyst",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+          }
+        ]
+      },
+      {
+        "name": "cs:go",
+        "players": [
+          {
+            "nickname": "w0nderful",
+            "name": "Igor Jdanov",
+            "role": "awper",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+          },
+          {
+            "nickname": "chopper",
+            "name": "Leonid Vishnyakov",
+            "role": "IGL/rifler",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+          },
+          {
+            "nickname": "magixx",
+            "name": "Boris Vorobyov",
+            "role": "rifler",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+          },
+          {
+            "nickname": "patsi",
+            "name": "Robert Isyanov",
+            "role": "rifler",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+          },
+          {
+            "nickname": "s1ren",
+            "name": "Pavel Ogloblin",
+            "role": "rifler",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+          }
+        ]
+      },
+      {
+        "name": "league of legends",
+        "players": [
+          {
+            "nickname": "Dreampull",
+            "name": "Mark Leksin",
+            "role": "top",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+          },
+          {
+            "nickname": "Diamondprox",
+            "name": "Danil Reshetnikov",
+            "role": "jungle",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+          },
+          {
+            "nickname": "Griffon",
+            "name": "Nikita Gudkov",
+            "role": "mid",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+          },
+          {
+            "nickname": "Mytant",
+            "name": "Evgen Zavalniy",
+            "role": "bot",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+          },
+          {
+            "nickname": "Edward",
+            "name": "Eduard Abgarya",
+            "role": "support",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+          }
+        ]
+      },
+      {
+        "name": "hearthstone",
+        "players": [
+          {
+            "nickname": "Dreampull",
+            "name": "Mark Leksin",
+            "role": "top",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+          },
+          {
+            "nickname": "Diamondprox",
+            "name": "Danil Reshetnikov",
+            "role": "jungle",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+          },
+          {
+            "nickname": "Griffon",
+            "name": "Никита Гудков",
+            "role": "mid",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+          },
+          {
+            "nickname": "Mytant",
+            "name": "Евген Завальный",
+            "role": "bot",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+          },
+          {
+            "nickname": "Edward",
+            "name": "Эдуард Абгарян",
+            "role": "support",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+          }
+        ]
+      },
+      {
+        "name": "team spirit familly",
+        "players": [
+          {
+            "nickname": "Dreampull",
+            "name": "Mark Leksin",
+            "role": "top",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+          },
+          {
+            "nickname": "Diamondprox",
+            "name": "Danil Reshetnikov",
+            "role": "jungle",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+          },
+          {
+            "nickname": "Griffon",
+            "name": "Никита Гудков",
+            "role": "mid",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+          },
+          {
+            "nickname": "Mytant",
+            "name": "Евген Завальный",
+            "role": "bot",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+          },
+          {
+            "nickname": "Edward",
+            "name": "Эдуард Абгарян",
+            "role": "support",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+          }
+        ]
+      },
+      {
+        "name": "cs:go academy",
+        "players": [
+          {
+            "nickname": "Dreampull",
+            "name": "Mark Leksin",
+            "role": "top",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+          },
+          {
+            "nickname": "Diamondprox",
+            "name": "Danil Reshetnikov",
+            "role": "jungle",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+          },
+          {
+            "nickname": "Griffon",
+            "name": "Никита Гудков",
+            "role": "mid",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+          },
+          {
+            "nickname": "Mytant",
+            "name": "Евген Завальный",
+            "role": "bot",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+          },
+          {
+            "nickname": "Edward",
+            "name": "Эдуард Абгарян",
+            "role": "support",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean."
+          }
+        ]
+      }
+    ],
+    "posts": [
+      {
+        "name": "TEAM SPIRIT ANNOUNCES NEW CS:GO ROTER PLAYER",
+        "path": "2ii32iii2.webp",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean.",
+        "date": "11.06.2022"
+      },
+      {
+        "name": "Team Spirit and 1xbet announce partnership",
+        "path": "2jjn23jj234j.webp",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean.",
+        "date": "22.03.2022"
+      },
+      {
+        "name": "After the roster reboot and relocation, Team Spirit's bet on young players starts to pay off",
+        "path": "32ur23iki.webp",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean.",
+        "date": "31.01.2022"
+      },
+      {
+        "name": "Team Spirit CEO Nikita 'Cheshir' Chukalin spoke about the reasons for the organization's relocation, why Serbia was chosen and future plans",
+        "path": "g90923j23j.webp",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean.",
+        "date": "15.09.2021"
+      },
+      {
+        "name": "Team Spirit presents a new CS:GO roster",
+        "path": "jrkkj.webp",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu. Commodo odio aenean sed adipiscing diam donec adipiscing. Sed odio morbi quis commodo. Sit amet tellus cras adipiscing enim. Integer quis auctor elit sed. Consequat semper viverra nam libero. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Lectus quam id leo in. Sit amet porttitor eget dolor morbi. Curabitur gravida arcu ac tortor dignissim convallis aenean.",
+        "date": "27.05.2020"
+      }
+    ],
+    "nav": {
+      "main": "home",
+      "about": "about",
+      "teams": "team",
+      "blog": "blog",
+      "partners": "partners"
+    },
+    "main": {
+      "title": "TEAM SPIRIT ANNOUNCES NEW CS:GO ROTER PLAYER"
+    },
+    "about": {
+      "title": "About the club",
+      "p1": "Team Spirit is an international eSports organization founded in 2015. At the moment, the main office of the team is based in the capital of Serbia, Belgrade.",
+      "p2": "Today we are represented in such disciplines as CS:GO (chopper,magixx, degster, Patsi, s1ren), Dota 2 (YATOROGOD, TORONTOTOKYO, Collapse, Mira, Miposhka), Hearthstone (SilverName). Also part of the Team Spirit Family is the streamer Wycc220.",
+      "p3": "Our goal is to consistently perform at a high level in each of the disciplines and compete with the best esports clubs in the world. We want to make a positive contribution to the community through interesting content, purpose initiatives and collaborations.",
+      "p4": "Our latest achievements: Winners of The International 10 Dota 2 (October 2021), DPC EEU Champions: Regional Finals Dota 2 (February 2022), 3rd-4th place PGL Antwerp Major in CS:GO (May 2022), top 6 CS:GO (May 2022, HLTV), top 4 at Hearthstone World Championship (December 2020)"
+    }
+  }
+}

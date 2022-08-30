@@ -3,6 +3,13 @@
     &__container {
         width: 800px;
         margin: 0 auto;
+        @media (max-width: 1024px) {
+            width: 600px;
+        }
+        @media (max-width: 768px) {
+            width: 100%;
+            padding: 0 5vw 0 5vw;
+        }
     }
     &__title {
         font-size: 47px;
@@ -42,11 +49,17 @@
         &-links {
             display: flex;
             margin-bottom: 40px;
+            @media (max-width: 480px) {
+                flex-direction: column;
+            }
         }
         &-wrapper {
             margin-right: 200px;
             &:nth-child(2) {
                 margin-right: 0;
+            }
+            @media (max-width: 768px) {
+                margin-right: 50px;
             }
         }
         &-name {

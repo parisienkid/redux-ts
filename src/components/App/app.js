@@ -30,10 +30,15 @@ const App = () => {
 	const {request} = useHttp();
 	const dispatch = useDispatch();
 
+	const { lang } = useSelector(state => state.lang);
+
+	console.log('render')
+
+
 	useEffect(() => {
-		dispatch(fetchGameData(request, 'http://localhost:3001/games'));
-		dispatch(fetchPostsData(request, 'http://localhost:3001/posts'));
-	}, []);
+		dispatch(fetchGameData(request, `http://localhost:3001/${lang}`));
+		dispatch(fetchPostsData(request, `http://localhost:3001/${lang}`));
+	}, [lang]);
 
 
 

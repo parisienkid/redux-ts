@@ -7,6 +7,11 @@
     border-radius: 5px;
     width: 300px;
     animation: opacity 3s linear forwards;
+    @media (max-width: 480px) {
+        right: 50%;
+        bottom: 50%;
+        transform: translateX(50%) translateY(50%);
+    }
     &__success {
         background-color: #c1e8ad;
         border: 2px solid #a7d590;

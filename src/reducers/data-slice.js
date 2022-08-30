@@ -2,9 +2,15 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
     statusGameData: "idle",
-    statusPostsData: "idle",
     dataGame: [],
+    statusPostsData: "idle",
     dataPosts: [],
+    statusNavData: "idle",
+    nav: {},
+    statusMainData: "idle",
+    main: {},
+    statusAboutData: "idle",
+    about: {},
 }
 
 const dataSlice = createSlice({
@@ -13,16 +19,34 @@ const dataSlice = createSlice({
     reducers: {
         dataGameFetching: state => {state.statusGameData = "loading"},
         dataGameFetched: (state, action) => {
-            state.dataGame = action.payload;
+            state.dataGame = action.payload.games;
             state.statusGameData = 'idle';
         },
         dataGameFetchingError: state => {state.statusGameData = "error"},
         dataPostsFetching: state => {state.statusPostsData = "loading"},
         dataPostsFetched: (state, action) => {
-            state.dataPosts = action.payload;
+            state.dataPosts = action.payload.posts;
             state.statusPostsData = 'idle';
         },
-        dataPostsFetchingError: state => {state.statusPostsData = "error"}
+        dataPostsFetchingError: state => {state.statusPostsData = "error"},
+        dataNavFetching: state => {state.statusNavData = "loading"},
+        dataNavFetched: (state, action) => {
+            state.dataNav = action.payload.nav;
+            state.statusNavData = 'idle';
+        },
+        dataNavError: state => {state.statusGameData = "error"},
+        dataMainFetching: state => {state.statusMainData = "loading"},
+        dataMainFetched: (state, action) => {
+            state.dataMain = action.payload.main;
+            state.statusMainData = 'idle';
+        },
+        dataMainFetchingError: state => {state.statusMainData = "error"},
+        dataAboutFetching: state => {state.statusMainData = "loading"},
+        dataAboutFetched: (state, action) => {
+            state.dataAbout = action.payload.about;
+            state.statusAboutData = 'idle';
+        },
+        dataAboutFetchingError: state => {state.statusAboutData = "error"}
     }
 });
 
@@ -37,4 +61,13 @@ export const {
     dataPostsFetching,
     dataPostsFetched,
     dataPostsFetchingError,
+    dataAboutFetching,
+    dataAboutFetched,
+    dataAboutFetchingError,
+    dataMainFetching,
+    dataMainFetched,
+    dataMainFetchingError,
+    dataNavFetching,
+    dataNavFetched,
+    dataNavError,
 } = actions;

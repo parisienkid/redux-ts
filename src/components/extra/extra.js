@@ -1,7 +1,7 @@
 import './extra.scss';
 import '../../variables/white-btn.scss';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 import shopLink from '../../assets/shop-link.80e06c6f.svg';
 import langArrow from '../../assets/lang.b470618b.svg';
@@ -11,14 +11,22 @@ import { langChange } from '../../reducers/lang-slice';
 const Extra = () => {
 
     const [piano, setPiano] = useState(false);
-    const {lang} = useSelector(state => state.lang);
+    let {lang} = useSelector(state => state.lang);
     const dispatch = useDispatch();
     const {burger} = useSelector(state => state.nav);
+
 
     const allLang = [
         'ru',
         'en',
     ];
+
+    useEffect(() => {
+        const storageLang = localStorage.getItem('lang');
+        if (storageLang !== undefined && storageLang !== null) {
+            dispatch(langChange(storageLang));
+        }
+    }, []);
 
 
     const onChangePiano = (e) => {
@@ -28,6 +36,7 @@ const Extra = () => {
     const onChangeLang = (selectedLang) => {
         if (lang !== selectedLang) {
             dispatch(langChange(selectedLang))
+            localStorage.setItem('lang', `${selectedLang}`);
         } 
     }
 
