@@ -1,8 +1,7 @@
-import { fetchGameData, fetchPostsData } from "../../fetch actions/fetch";
+import { fetchRuData, fetchEnData} from "../../fetch actions/fetch";
 import { useHttp } from "../../hooks/http-hook";
 import { useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
-
+import { useDispatch} from "react-redux";
 
 import Nav from "../nav/nav";
 import Extra from "../extra/extra";
@@ -30,17 +29,10 @@ const App = () => {
 	const {request} = useHttp();
 	const dispatch = useDispatch();
 
-	const { lang } = useSelector(state => state.lang);
-
-	console.log('render')
-
-
 	useEffect(() => {
-		dispatch(fetchGameData(request, `http://localhost:3001/${lang}`));
-		dispatch(fetchPostsData(request, `http://localhost:3001/${lang}`));
-	}, [lang]);
-
-
+		dispatch(fetchRuData(request, `http://localhost:3001/ru`));
+		dispatch(fetchEnData(request, `http://localhost:3001/en`));
+	}, []);
 
 	return (
 		<Router>

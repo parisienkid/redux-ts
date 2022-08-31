@@ -1,14 +1,17 @@
-import './game.scss';
 import { Link, useParams } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 
 import Player from '../../player/player';
 
-const GamePage = () => {
-    let {game} = useParams();
-    const {dataGame} = useSelector(state => state.data);
-        
+import './game.scss';
 
+const GamePage = () => {
+
+    let {game} = useParams();
+    let dataPlayers = [];
+    const {lang} = useSelector(state => state.lang);
+    dataPlayers = useSelector(state => state.data[`${lang}DataGames`]);
+        
     return (
         <div className="game">
             <div className="game__players">
@@ -17,7 +20,7 @@ const GamePage = () => {
                     НАЗАД К СОСТАВАМ
                 </Link>
                 {
-                    dataGame.map(item => {
+                    dataPlayers.map(item => {
                         if (item.name === game.replace(/-/ig, ' ')) {
                             return (
                                 item.players.map((player, i) => {
@@ -30,9 +33,7 @@ const GamePage = () => {
                     })
                 }
             </div>
-            <div className="game__image">
-
-            </div>
+            <div className="game__image"></div>
         </div>
     )
 };

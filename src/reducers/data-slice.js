@@ -1,52 +1,59 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-    statusGameData: "idle",
-    dataGame: [],
-    statusPostsData: "idle",
-    dataPosts: [],
-    statusNavData: "idle",
-    nav: {},
-    statusMainData: "idle",
-    main: {},
-    statusAboutData: "idle",
-    about: {},
+    ruStatusData: "none",
+    ruDataGames: [],
+    ruNav: {},
+    ruMain: {},
+    ruAbout: {},
+    ruExtra: {},
+    ruFooter: {},
+    ruContact: {},
+    ruAlert: {},
+    ruDataPosts: [],
+    enStatusData: "none",
+    enDataGames: [],
+    enNav: {},
+    enMain: {},
+    enAbout: {},
+    enExtra: {},
+    enFooter: {},
+    enContact: {},
+    enAlert: {},
+    enDataPosts: [],
 }
 
 const dataSlice = createSlice({
     name: "data",
     initialState,
     reducers: {
-        dataGameFetching: state => {state.statusGameData = "loading"},
-        dataGameFetched: (state, action) => {
-            state.dataGame = action.payload.games;
-            state.statusGameData = 'idle';
+        dataRuFetching: state => {state.ruStatusData = "loading"},
+        dataRuFetched: (state, action) => {
+            state.ruDataGames = action.payload.games;
+            state.ruNav = action.payload.nav;
+            state.ruMain = action.payload.main;
+            state.ruAbout = action.payload.about;
+            state.ruExtra = action.payload.extra;
+            state.ruFooter = action.payload.footer;
+            state.ruContact = action.payload.contact;
+            state.ruAlert = action.payload.alert;
+            state.ruDataPosts = action.payload.posts;
+            state.ruStatusData = 'idle';
         },
-        dataGameFetchingError: state => {state.statusGameData = "error"},
-        dataPostsFetching: state => {state.statusPostsData = "loading"},
-        dataPostsFetched: (state, action) => {
-            state.dataPosts = action.payload.posts;
-            state.statusPostsData = 'idle';
+        dataEnFetching: state => {state.enStatusData = "loading"},
+        dataEnFetched: (state, action) => {
+            state.enDataGames = action.payload.games;
+            state.enNav = action.payload.nav;
+            state.enMain = action.payload.main;
+            state.enAbout = action.payload.about;
+            state.enExtra = action.payload.extra;
+            state.enFooter = action.payload.footer;
+            state.enContact = action.payload.contact;
+            state.enAlert = action.payload.alert;
+            state.enDataPosts = action.payload.posts;
+            state.enStatusData = 'idle';
         },
-        dataPostsFetchingError: state => {state.statusPostsData = "error"},
-        dataNavFetching: state => {state.statusNavData = "loading"},
-        dataNavFetched: (state, action) => {
-            state.dataNav = action.payload.nav;
-            state.statusNavData = 'idle';
-        },
-        dataNavError: state => {state.statusGameData = "error"},
-        dataMainFetching: state => {state.statusMainData = "loading"},
-        dataMainFetched: (state, action) => {
-            state.dataMain = action.payload.main;
-            state.statusMainData = 'idle';
-        },
-        dataMainFetchingError: state => {state.statusMainData = "error"},
-        dataAboutFetching: state => {state.statusMainData = "loading"},
-        dataAboutFetched: (state, action) => {
-            state.dataAbout = action.payload.about;
-            state.statusAboutData = 'idle';
-        },
-        dataAboutFetchingError: state => {state.statusAboutData = "error"}
+        dataenFetchingError: state => {state.enStatusData = "error"},
     }
 });
 
@@ -55,19 +62,10 @@ const {reducer, actions} = dataSlice;
 export default reducer;
 
 export const {
-    dataGameFetching,
-    dataGameFetched,
-    dataGameFetchingError,
-    dataPostsFetching,
-    dataPostsFetched,
-    dataPostsFetchingError,
-    dataAboutFetching,
-    dataAboutFetched,
-    dataAboutFetchingError,
-    dataMainFetching,
-    dataMainFetched,
-    dataMainFetchingError,
-    dataNavFetching,
-    dataNavFetched,
-    dataNavError,
+    dataRuFetching,
+    dataRuFetched,
+    dataRuFetchingError,
+    dataEnFetching,
+    dataEnFetched,
+    dataEnFetchingError,
 } = actions;

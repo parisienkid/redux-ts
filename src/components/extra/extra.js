@@ -1,20 +1,22 @@
-import './extra.scss';
-import '../../variables/white-btn.scss';
-
 import { useState, useEffect } from 'react';
-
-import shopLink from '../../assets/shop-link.80e06c6f.svg';
-import langArrow from '../../assets/lang.b470618b.svg';
 import { useSelector, useDispatch  } from 'react-redux';
 import { langChange } from '../../reducers/lang-slice';
 
+import shopLink from '../../assets/shop-link.80e06c6f.svg';
+import langArrow from '../../assets/lang.b470618b.svg';
+
+import './extra.scss';
+import '../../variables/white-btn.scss';
+
 const Extra = () => {
+
+    const dispatch = useDispatch();
 
     const [piano, setPiano] = useState(false);
     let {lang} = useSelector(state => state.lang);
-    const dispatch = useDispatch();
     const {burger} = useSelector(state => state.nav);
-
+    const status = useSelector(state => state.data[`${lang}StatusData`]);
+    const extraData = useSelector(state => state.data[`${lang}Extra`]);
 
     const allLang = [
         'ru',
@@ -28,7 +30,6 @@ const Extra = () => {
         }
     }, []);
 
-
     const onChangePiano = (e) => {
         setPiano(!piano)
     };
@@ -40,8 +41,6 @@ const Extra = () => {
         } 
     }
 
-
-
     return (
         <div className="extra">
             <div onClick={onChangePiano} className={`extra__lang ${piano ? 'extra__lang_active' : ''} ${burger ? 'burger' : ''}`}>
@@ -52,7 +51,13 @@ const Extra = () => {
                 })}
                 <img src={langArrow} className={`${piano ? 'active' : ''}`} alt="arrow"/>
             </div>
-            <a href="" className={`white-btn_active extra__shop ${burger ? 'burger' : ''}`}>магазин <img src={shopLink} alt="shop link" /></a>
+            {
+                status === "idle"
+                ?
+                <a href="" className={`white-btn_active extra__shop ${burger ? 'burger' : ''}`}>{extraData.shop}<img src={shopLink} alt="shop link" /></a>
+                :
+                null
+            }
         </div>
     )
 };

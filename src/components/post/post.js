@@ -1,6 +1,6 @@
-import './post.scss';
-
 import { Link } from 'react-router-dom';
+
+import './post.scss';
 
 const Post = (props) => {
 

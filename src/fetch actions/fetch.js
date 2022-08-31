@@ -1,16 +1,24 @@
-import { dataGameFetching, dataGameFetched, dataGameFetchingError } from "../reducers/data-slice";
-import { dataPostsFetching, dataPostsFetched,  dataPostsFetchingError } from "../reducers/data-slice";
+import { 
+    dataRuFetching, 
+    dataRuFetched, 
+    dataRuFetchingError, 
+    dataEnFetching, 
+    dataEnFetched, 
+    dataEnFetchingError 
+} from "../reducers/data-slice";
 
-export const fetchGameData = (request, url) => (dispatch) => {
-    dispatch(dataGameFetching());
+export const fetchRuData = (request, url) => (dispatch) => {
+    dispatch(dataRuFetching());
     request(url)
-    .then(data => dispatch(dataGameFetched(data)))
-    .catch(() => dispatch(dataGameFetchingError()))
+    .then(data => dispatch(dataRuFetched(data)))
+    .catch(() => dispatch(dataRuFetchingError()))
 };
 
-export const fetchPostsData = (request, url) => (dispatch) => {
-    dispatch(dataPostsFetching());
+export const fetchEnData = (request, url) => (dispatch) => {
+    dispatch(dataEnFetching());
     request(url)
-    .then(data => dispatch(dataPostsFetched(data)))
-    .catch(() => dispatch(dataPostsFetchingError()))
+    .then(data => dispatch(dataEnFetched(data)))
+    .catch(() => dispatch(dataEnFetchingError()))
 };
+
+

@@ -1,12 +1,15 @@
-import './blog.scss';
-import mainImg from '../../../assets/onweb-1655810324491.webp';
 import { useSelector } from 'react-redux';
 
+import mainImg from '../../../assets/onweb-1655810324491.webp';
 import Post from '../../post/post';
+
+import './blog.scss';
 
 const BlogPage = () => {
 
-    const {dataPosts} = useSelector(state => state.data);
+    let dataPosts = [];
+    const {lang} = useSelector(state => state.lang);
+    dataPosts = useSelector(state => state.data[`${lang}DataPosts`]);
 
     const renderPosts = () => {
         return (
@@ -14,7 +17,7 @@ const BlogPage = () => {
                 return (
                     <Post key={i} title={post.name} content={post.content} img={post.path}/>
                 )
-            })
+            })        
         )
     };
 
@@ -22,7 +25,7 @@ const BlogPage = () => {
         <div className="blog">
             <div className="blog__container">
                 <img className='blog__head-img' src={mainImg} alt="bg" />       
-                {renderPosts()}
+                {dataPosts.length > 0 ? renderPosts() : null}
             </div>
         </div>
     )

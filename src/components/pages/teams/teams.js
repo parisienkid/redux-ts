@@ -1,20 +1,21 @@
-import './teams.scss';
 import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
+
 import clearNav from '../../nav/functions/clearNav';
 
-
+import './teams.scss';
 
 const TeamsPage = () => {
 
-    const {dataGame} = useSelector(state => state.data);
-    const {status} = useSelector(state => state.data);
+    let dataGames = [];
+    const {lang} = useSelector(state => state.lang);
+    dataGames = useSelector(state => state.data[`${lang}DataGames`]);
 
     clearNav();
 
     const renderItems = () => {
         return (
-            dataGame.map((game, i) => {
+            dataGames.map((game, i) => {
                 return <Link key={i} to={`/teams/${game.name.replace(/ /ig, '-')}`} className="teams__item">{game.name}</Link>
             })
         )
@@ -22,7 +23,7 @@ const TeamsPage = () => {
 
     return (
         <div className="teams">
-            {status === 'loading' ? null : renderItems()}
+            {dataGames.length > 0 ? renderItems() : null}
         </div>
     )
 };

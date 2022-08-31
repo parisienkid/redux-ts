@@ -276,7 +276,8 @@
       "partners": "партнёры"
     },
     "main": {
-      "title": "TEAM SPIRIT АНОНСИРУЕТ НОВОГО ИГРОКА CS:GO РОСТЕРА"
+      "title": "TEAM SPIRIT АНОНСИРУЕТ НОВОГО ИГРОКА CS:GO РОСТЕРА",
+      "btn": "подробнее"
     },
     "about": {
       "title": "О КЛУБЕ",
@@ -284,6 +285,32 @@
       "p2": "На сегодняшний день мы представлены в таких дисциплинах, как CS:GO (chopper,magixx, degster, Patsi, s1ren), Dota 2 (YATOROGOD, TORONTOTOKYO, Collapse, Mira, Miposhka), Hearthstone (SilverName). Так же частью Team Spirit Family является стример Wycc220.",
       "p3": "Наша цель - стабильно выступать на высоком уровне в каждой из дисциплин и конкурировать с лучшими киберспортивными клубами мира. Мы хотим внести позитивный вклад в комьюнити с помощью интересного контента, purpose-инициатив и коллабораций.",
       "p4": "Наши последние достижения: Победители The International 10 Dota 2 (октябрь 2021) , чемпионы DPC EEU: Regional Finals Dota 2(февраль 2022), 3-4 место PGL Antwerp Major по CS:GO (май 2022), топ-6 CS:GO (май 2022, HLTV), топ-4 на Hearthstone World Championship (декабрь 2020)"
+    },
+    "extra": {
+      "shop": "магазин"
+    },
+    "footer": {
+      "brandbook": "брендбук",
+      "contacts": "контакты"
+    },
+    "contact": {
+      "title": "КОНТАКТЫ",
+      "subtitle": "Следите за обновлениями и общайтесь с комьюнити Team Spirit в наших социальных сетях",
+      "media": "БРЕНД/МЕДИА",
+      "business": "БИЗНЕС",
+      "formtitle": "ФОРМА СВЯЗИ",
+      "name": "*Имя",
+      "lastname": "*Фамилия",
+      "theme": "*Тема обращения",
+      "message": "Сообщение",
+      "btn": "Отправить"
+    },
+    "alert": {
+      "name": "Имя и фамилия должны быть заполнены!",
+      "email": "Неправильный email адрес",
+      "theme": "Длина темы сообщения должна быть больше 3-х символов",
+      "message": "Опишите ваше обращение более подробно (от 10 символов)",
+      "success": "Отправлено"
     }
   },
   "en": {
@@ -563,7 +590,8 @@
       "partners": "partners"
     },
     "main": {
-      "title": "TEAM SPIRIT ANNOUNCES NEW CS:GO ROTER PLAYER"
+      "title": "TEAM SPIRIT ANNOUNCES NEW CS:GO ROTER PLAYER",
+      "btn": "available"
     },
     "about": {
       "title": "About the club",
@@ -571,6 +599,33 @@
       "p2": "Today we are represented in such disciplines as CS:GO (chopper,magixx, degster, Patsi, s1ren), Dota 2 (YATOROGOD, TORONTOTOKYO, Collapse, Mira, Miposhka), Hearthstone (SilverName). Also part of the Team Spirit Family is the streamer Wycc220.",
       "p3": "Our goal is to consistently perform at a high level in each of the disciplines and compete with the best esports clubs in the world. We want to make a positive contribution to the community through interesting content, purpose initiatives and collaborations.",
       "p4": "Our latest achievements: Winners of The International 10 Dota 2 (October 2021), DPC EEU Champions: Regional Finals Dota 2 (February 2022), 3rd-4th place PGL Antwerp Major in CS:GO (May 2022), top 6 CS:GO (May 2022, HLTV), top 4 at Hearthstone World Championship (December 2020)"
+    },
+    "extra": {
+      "shop": "shop"
+    },
+    "footer": {
+      "brandbook": "brandbook",
+      "contacts": "contacts"
+    },
+    "contact": {
+      "title": "CONTACT",
+      "subtitle": "Stay tuned for updates and communicate with the Team Spirit community on our social networks",
+      "media": "BRAND/MEDIA",
+      "business": "BUSINESS",
+      "formtitle": "FEEDBACK",
+      "name": "*Name",
+      "lastname": "*Lastname",
+      "theme": "*Subject",
+      "message": "Message",
+      "btn": "Submit",
+      "disabledBtn": "Wait"
+    },
+    "alert": {
+      "name": "First and last name must be filled in!",
+      "email": "Wrong email address",
+      "theme": "The length of the subject of the message must be more than 3 characters",
+      "message": "Describe your appeal in more detail (from 10 characters)",
+      "success": "Message sent"
     }
   }
 }

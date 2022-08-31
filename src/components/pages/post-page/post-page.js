@@ -1,13 +1,17 @@
-import './post-page.scss';
 import { useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
+
+import './post-page.scss';
 
 const PostPage = () => {
 
     const {post} = useParams();
-    const {dataPosts} = useSelector(state => state.data);
+    const {lang} = useSelector(state => state.lang);
 
     let postInfo = {};
+    let dataPosts = [];
+
+    dataPosts = useSelector(state => state.data[`${lang}DataPosts`]);
 
     dataPosts.some(item => {
         if (item.path.slice(0, -5) == post) {
