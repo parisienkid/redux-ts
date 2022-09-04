@@ -1,5 +1,4 @@
-import { fetchRuData, fetchEnData} from "../../fetch actions/fetch";
-import { useHttp } from "../../hooks/http-hook";
+import { fetchRuData, fetchEnData } from "../../reducers/data-slice";
 import { useEffect } from "react";
 import { useDispatch} from "react-redux";
 
@@ -26,12 +25,11 @@ import {
 
 const App = () => {
 
-	const {request} = useHttp();
 	const dispatch = useDispatch();
 
 	useEffect(() => {
-		dispatch(fetchRuData(request, `http://localhost:3001/ru`));
-		dispatch(fetchEnData(request, `http://localhost:3001/en`));
+		dispatch(fetchRuData());
+		dispatch(fetchEnData());
 	}, []);
 
 	return (
